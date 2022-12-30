@@ -1,0 +1,3 @@
+-- Active: 1670445187455@@127.0.0.1@3306
+CREATE DATABASE order_service_db
+    DEFAULT CHARACTER SET = 'utf8mb4';
