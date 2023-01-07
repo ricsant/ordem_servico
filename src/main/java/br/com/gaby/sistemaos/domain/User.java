@@ -27,7 +27,6 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String username;
-    @JsonIgnore
     private String password;
     private String name;
     private String phoneNumber;
